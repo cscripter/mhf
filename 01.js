@@ -75,7 +75,7 @@ $(document).ready(function(){
 		   }
 		   var sgolds = (valordig * fator);
 		   var mensagem = ("Depositando R$" + valordig + " - Pacote " + pacote + "<br /><br /><span class='mensagem'>Receberá:<br /> </span><span class='mensagem'>Solgds: </span>" + sgolds  + "<br /><span class='mensagem'>Hfgolds: </span>" + hfgolds + "<br /><span class='mensagem'>Créditos: </span>" + creditos + "<br /><span class='mensagem'>Vip: </span>" + vip + "!!<br />" + "<span class='mensagem'>Itens Brinde: </span>" + itensbrinde + "<br /><span class='mensagem'>Promoção valida até: </span>" + promovalidate);
-		document.getElementById("Valordig").value=' ';
+		document.getElementById("Valordig").value='';
 		var div = document.getElementById("resp");
 		div.innerHTML = mensagem;
 		   
